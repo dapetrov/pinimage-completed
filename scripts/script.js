@@ -24,6 +24,15 @@ const FindOnPage = () => {
              document.getElementById("autor").textContent='Автор: '+data[0].artist
              document.getElementById("type").textContent='Жанр: '+data[0].tags
              document.getElementById("name").textContent='Название: '+data[0].name
+             document.getElementById("autor2").textContent='Автор: '+data[1].artist
+             document.getElementById("type2").textContent='Жанр: '+data[1].tags
+             document.getElementById("name2").textContent='Название: '+data[1].name
+             document.getElementById("autor3").textContent='Автор: '+data[2].artist
+             document.getElementById("type3").textContent='Жанр: '+data[2].tags
+             document.getElementById("name3").textContent='Название: '+data[2].name
+             document.getElementById("autor4").textContent='Автор: '+data[3].artist
+             document.getElementById("type4").textContent='Жанр: '+data[3].tags
+             document.getElementById("name4").textContent='Название: '+data[3].name
 
             // for (key in data) {
             //     if (data[key]) {

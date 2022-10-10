@@ -53,6 +53,7 @@ footer{
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+  align-items: center;
 }
 .searchStory {
   font-size: 30px;
